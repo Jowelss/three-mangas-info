@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#effect-button {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 100%;
+  animation-name: colorm;
+  animation-duration: 0.5s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes colorm {
+  0% {
+    background-color: #ff0000;
+  }
+}
+#message {
+  position: absolute;
+  top: -28px;
+  right: -150px;
+  padding: 3px 8px;
+  border-radius: 10px 10px 10px 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Sora", sans-serif;
+  box-shadow: 0 0 4px -1px #000;
+  animation-name: jump;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-out;
+  user-select: none;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(3px);
+    box-shadow: 0 0 8px -1px rgba(0, 0, 0, 0.5215686275);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
