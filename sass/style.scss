@@ -27,7 +27,7 @@ body {
   background-color: #000;
   border-radius: 100%;
   animation-name: colorm;
-  animation-duration: 0.5s;
+  animation-duration: 0.6s;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
@@ -35,7 +35,7 @@ body {
 
 @keyframes colorm {
   0% {
-    background-color: #ff0000;
+    background-color: #001572d7;
   }
   100% {
   }
@@ -50,9 +50,9 @@ body {
   font-size: 0.8rem;
   font-weight: 500;
   font-family: 'Sora', sans-serif;
-  box-shadow: 0 0 4px -1px #000;
+  box-shadow: 0 0 4px -1px #2c2c2c;
   animation-name: jump;
-  animation-duration: 0.5s;
+  animation-duration: 0.6s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-timing-function: ease-out;
