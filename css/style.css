@@ -27,18 +27,16 @@ body {
 }
 #card .list-container .list-item {
   margin: 15px 0;
+  position: relative;
 }
 #card .list-container .list-item .list-item__subTitle {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   cursor: pointer;
   user-select: none;
 }
 #card .list-container .list-item .list-item__info {
   display: none;
   position: absolute;
-}
-#card .list-container .coso {
-  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
