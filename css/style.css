@@ -18,10 +18,12 @@ body {
   padding: 20px;
   box-shadow: 0 0 8px -1px #a7a6af;
   border-radius: 20px;
+  transition: 0.2s;
 }
 #card .title-content {
   display: block;
   margin-bottom: 10px;
+  user-select: none;
 }
 #card .title-content .title {
   display: inline;
@@ -31,7 +33,6 @@ body {
 }
 #card .list-container .list-item {
   margin: 15px 0;
-  position: relative;
 }
 #card .list-container .list-item .list-item__subTitle {
   margin-bottom: 5px;
@@ -40,7 +41,7 @@ body {
 }
 #card .list-container .list-item .list-item__info {
   display: none;
-  position: absolute;
+  user-select: none;
 }
 
 /*# sourceMappingURL=style.css.map */
