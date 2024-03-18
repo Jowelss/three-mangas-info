@@ -12,12 +12,16 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 20px;
+  background-image: url(../assets/guts.svg), url(../assets/mushasi.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom left, bottom right -80px;
+  background-color: #dbdbdb;
 }
 
 #card {
-  width: 800px;
+  width: 700px;
   padding: 20px;
-  box-shadow: 0 0 8px -1px #a7a6af;
   border-radius: 20px;
   transition: 0.2s;
 }
@@ -31,12 +35,14 @@ body {
 }
 #card .list-container {
   list-style: none;
+  text-align: center;
 }
 #card .list-container .list-item {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 #card .list-container .list-item .list-item__subTitle {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+  display: inline-block;
   cursor: pointer;
   user-select: none;
 }
