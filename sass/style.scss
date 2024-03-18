@@ -13,18 +13,24 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 20px;
-  background-image: url(../assets/guts.svg), url(../assets/mushasi.svg);
+  background-image: url(../assets/gutsTwo.svg), url(../assets/mushasi.svg),
+    url(../assets/thorffin.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom left, bottom right -80px;
-  background-color: #dbdbdb;
+  background-position: left -10px bottom -140px, bottom right -80px,
+    center left 300px;
+  background-color: #bdbdbd;
 }
 
 #card {
+  position: relative;
   width: 700px;
   padding: 20px;
   border-radius: 20px;
   transition: 0.2s;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 10px 10px #c9c9c996;
+  color: #ffffffbb;
 
   .title-content {
     display: block;
