@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 20px;
 }
 
 #card {
@@ -27,7 +28,7 @@ body {
     user-select: none;
 
     .title {
-      display: inline;
+      text-align: center;
     }
   }
 
