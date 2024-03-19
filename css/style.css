@@ -15,7 +15,7 @@ body {
   background-image: url(../assets/gutsTwo.svg), url(../assets/mushasi.svg), url(../assets/thorffin.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left -10px bottom -140px, bottom right -80px, center left 300px;
+  background-position: left -10px bottom -140px, bottom right -80px, center left 380px;
   background-color: #b3b3b3;
 }
 
@@ -25,8 +25,8 @@ body {
   padding: 20px;
   border-radius: 20px;
   transition: 0.2s;
-  backdrop-filter: blur(2px);
-  color: #e2e2e2;
+  backdrop-filter: blur(1px);
+  color: #ff1c1c;
 }
 #card .title-content {
   display: block;
@@ -51,12 +51,13 @@ body {
   transition: 0.2s;
 }
 #card .list-container .list-item .list-item__subTitle:hover {
-  color: #40424b;
+  color: #26272c;
 }
 #card .list-container .list-item .list-item__info {
   display: none;
   user-select: none;
-  color: #fff;
+  color: #c03838;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
