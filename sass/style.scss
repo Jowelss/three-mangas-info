@@ -19,7 +19,7 @@ body {
   background-size: contain;
   background-position: left -10px bottom -140px, bottom right -80px,
     center left 300px;
-  background-color: #bdbdbd;
+  background-color: #b3b3b3;
 }
 
 #card {
@@ -29,8 +29,7 @@ body {
   border-radius: 20px;
   transition: 0.2s;
   backdrop-filter: blur(2px);
-  box-shadow: 0 0 10px 10px #c9c9c996;
-  color: #ffffffbb;
+  color: #e2e2e2;
 
   .title-content {
     display: block;
@@ -54,11 +53,17 @@ body {
         display: inline-block;
         cursor: pointer;
         user-select: none;
+        transition: 0.2s;
+
+        &:hover {
+          color: #40424b;
+        }
       }
 
       .list-item__info {
         display: none;
         user-select: none;
+        color: #fff;
       }
     }
   }

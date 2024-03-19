@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left -10px bottom -140px, bottom right -80px, center left 300px;
-  background-color: #bdbdbd;
+  background-color: #b3b3b3;
 }
 
 #card {
@@ -26,8 +26,7 @@ body {
   border-radius: 20px;
   transition: 0.2s;
   backdrop-filter: blur(2px);
-  box-shadow: 0 0 10px 10px rgba(201, 201, 201, 0.5882352941);
-  color: rgba(255, 255, 255, 0.7333333333);
+  color: #e2e2e2;
 }
 #card .title-content {
   display: block;
@@ -49,10 +48,15 @@ body {
   display: inline-block;
   cursor: pointer;
   user-select: none;
+  transition: 0.2s;
+}
+#card .list-container .list-item .list-item__subTitle:hover {
+  color: #40424b;
 }
 #card .list-container .list-item .list-item__info {
   display: none;
   user-select: none;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
